@@ -1,9 +1,11 @@
-import Header from "./pages/Header";
+import Header from "./components/Header";
+import Pet from "./components/Pet";
 
 const App = () => {
   return (
     <div className="App">
       <Header />
+      <Pet />
     </div>
   );
 }

@@ -12,7 +12,8 @@ const Header = () => {
     {
       title1: "Tentang Kami",
       title2: "Buat Hewan Peliharaan",
-      title3: "Menjadi",
+      title3: "Menjadi ",
+      span: "Partner-Mu",
       des1: "Mocha Pet Shop adalah pet shop online pertama yang ada di Manado. Menyediakan",
       des2: " berbagai jenis hewan dan kebutuhannya khusus untuk para pecinta hewan.",
       des3: "Dijamin 100% anda akan suka karena kami menyediakan hewan-hewan unik dan lucu yang banyak diminati saat ini. Kami juga menyediakan transportasi pengantaran",
@@ -20,8 +21,10 @@ const Header = () => {
     },
   ];
   return (
-    <section className="bg-w-full py-4 md:px-24 px-4">
+    <section className="py-4 md:px-24 px-4">
+      <div className="pl-6 py-4">
       <Nav />
+      </div>
       <div className="flex md:flex-row flex-col gap-5 pt-20">
         <div className="flex-1">
           <h1 className="text-2xl font-extrabold text-slate-900 md:text-xl lg:text-3xl dark:text-white">
@@ -43,7 +46,7 @@ const Header = () => {
       </div>
 
       <div className="pt-35 lg:pt-30 pb-20">
-      <img src={bg} alt="" />
+      <img src={bg} alt="" className="fixed" />
       </div>
 
       <div className="pt-40 pb-16">
@@ -53,7 +56,7 @@ const Header = () => {
             <img src={info.image} alt="" />
             <h6 className="text-base text-orange-400 my-2 pl-5 pr-20">{info.title1}</h6>
             <h1 className="font-bold text-4xl tracking-tight text-white pl-5 pr-20">{info.title2}</h1>
-            <h1 className="font-bold text-4xl tracking-tight text-white my-3 pl-5 pr-20">{info.title3}<span className="text-orange-400"> Partner-Mu</span></h1>
+            <h1 className="font-bold text-4xl tracking-tight text-white my-3 pl-5 pr-20">{info.title3}<span className="text-orange-400">{info.span}</span></h1>
             <p className="w-full font-normal text-white leading-relaxed pl-5 pr-20">{info.des1}</p>
             <p className="mb-3 w-full font-normal text-white leading-relaxed pl-5 pr-20">{info.des2}</p>
             <p className="w-full font-normal text-white leading-relaxed pl-5 pr-20">{info.des3}</p>
