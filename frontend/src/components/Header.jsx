@@ -3,7 +3,6 @@ import Nav from "./Navbar/Nav";
 import Pic1 from "../assets/pic_1.png";
 import ButtonFill from "./ButtonFill";
 import Pic2 from "../assets/pic_2.png";
-import bg from "../assets/bg_wave.png";
 const Header = () => {
   const Info = [
     {
@@ -21,11 +20,11 @@ const Header = () => {
     },
   ];
   return (
-    <section className="py-4 md:px-24 px-4">
+    <section id="home" className="py-4 md:px-24 px-4">
       <div className="pl-6 py-4">
       <Nav />
       </div>
-      <div className="flex md:flex-row flex-col gap-5 pt-20">
+      <div className="flex md:flex-row flex-col gap-5 pt-40">
         <div className="flex-1">
           <h1 className="text-2xl font-extrabold text-slate-900 md:text-xl lg:text-3xl dark:text-white">
             Selamat Datang di
@@ -40,16 +39,12 @@ const Header = () => {
             <ButtonFill>Klik Disini</ButtonFill>
           </div>
         </div>
-        <div className="flex-1 flex justify-center pt-5 md:pt-0 -pb-2 md:pb-12">
-          <img src={Pic1} alt="beranda" className="pt-0.5"/>
+        <div className="w-full self-end px-4 lg:w-1/2">
+            <img src={Pic1} alt="beranda" className="max-w-full mx-auto pb-10"/>
         </div>
       </div>
 
-      <div className="pt-35 lg:pt-30 pb-20">
-      <img src={bg} alt="" className="fixed" />
-      </div>
-
-      <div className="pt-40 pb-16">
+      <div id="about" className="pt-40 pb-16">
       <div className="bg-amber-700 flex md:flex-row flex-col md:-mt-48 gap-10 md:p-14 p-10 mt-5 rounded-lg">
         {Info.map((info, i) => (
           <div key={i}>

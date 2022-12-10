@@ -26,7 +26,7 @@ import kategori1 from "../assets/kategori_1.png";
 import kategori2 from "../assets/kategori_2.png";
 const Pet = () => {
   return (
-    <section className="my-2">
+    <section id="pet" className="my-2">
       <h4 className="text-orange-400 font-medium text-center text-md">Hewan Kami</h4>
       <h2 className="text-3xl lg:text-4xl mt-1 text-center text-slate-900 font-bold hover:text-orange-400">Jenis Hewan</h2>
       <p className="font-medium text-md text-center text-slate-500 md:text-lg mt-1 pb-4">Berikut adalah jenis hewan berdasarkan kategorinya</p>
@@ -34,14 +34,18 @@ const Pet = () => {
       <div className="pt-10 px-5">
           <h1 className="font-semibold text-3xl text-left lg:text-4xl hover:text-orange-400">Rekomendasi</h1>
       </div>
-      <div className="my-2">
+      <div className="my-2 mx-6">
         <Swiper
           grabCursor={true}
           spaceBetween={30}
+          keyboard={{
+            enabled: true,
+          }}
           pagination={{
             clickable: true,
           }}
-          modules={[Pagination]}
+          navigation={true}
+          modules={[Keyboard, Pagination, Navigation]}
           breakpoints={{
             1024: {
               slidesPerView: 4,
@@ -140,7 +144,7 @@ const Pet = () => {
           <h3 className="font-medium text-xl lg:text-2xl">Beserta kumpulan rasnya</h3>
         </div>
       </div>
-      <div className="my-6">
+      <div className="my-6 mx-6">
         <div className="items-end text-right">
         <a href="#home" className="flex text-base text-end text-slate-900 underline underline-offset-2">Lihat semua</a>
         </div>
@@ -308,7 +312,7 @@ const Pet = () => {
           <h3 className="font-medium text-xl lg:text-2xl">Beserta kumpulan rasnya</h3>
         </div>
       </div>
-      <div className="my-6">
+      <div className="my-6 mx-6">
         <div className="items-end text-right">
         <a href="#home" className="flex text-base text-end text-slate-900 underline underline-offset-2">Lihat semua</a>
         </div>

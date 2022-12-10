@@ -4,23 +4,23 @@ const NavLinks = () => {
   const Links = [
     {
       name: "Beranda",
-      link: "/",
+      link: "#home",
     },
     {
       name: "Tentang",
-      link: "/",
+      link: "#home",
     },
     {
       name: "Hewan",
-      link: "/",
+      link: "#pet",
     },
     {
       name: "Kebutuhan",
-      link: "/",
+      link: "#product",
     },
     {
         name: "Review",
-        link: "/",
+        link: "#review",
     },
     {
       name: "Bantuan",

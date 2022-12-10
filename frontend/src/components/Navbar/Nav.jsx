@@ -4,9 +4,9 @@ import NavLinks from "./NavLinks";
 const Nav = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="flex bg-gradient-to-b from-orange-300 fixed top-0 left-0 w-full flex items-center justify between z-10">
+    <nav className="flex bg-gradient-to-b from-orange-300 fixed top-0 left-0 w-full backdrop-blur-sm flex items-center justify between z-10">
       <img src={Logo} alt="logo" className="block px-6 pl-10 items-center cursor-pointer" />
-      <ul className="md:flex hidden items-center gap-10">
+      <ul className="md:flex hidden items-center text-center gap-10">
         <NavLinks />
       </ul>
       {/* Mobile Nav */}
