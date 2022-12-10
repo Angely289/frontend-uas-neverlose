@@ -20,7 +20,7 @@ const Header = () => {
     },
   ];
   return (
-    <section id="home" className="py-4 md:px-24 px-4">
+    <section id="home" className="py-4 px-4 md:px-24">
       <div className="pl-6 py-4">
       <Nav />
       </div>
@@ -40,11 +40,13 @@ const Header = () => {
           </div>
         </div>
         <div className="w-full self-end px-4 lg:w-1/2">
+          <div class="relative mt-16 lg:mt-9 lg:right-0">
             <img src={Pic1} alt="beranda" className="max-w-full mx-auto pb-10"/>
+          </div>
         </div>
       </div>
 
-      <div id="about" className="pt-40 pb-16">
+      <div id="about" className="pt-36 lg:pt-60 pb-16">
       <div className="bg-amber-700 flex md:flex-row flex-col md:-mt-48 gap-10 md:p-14 p-10 mt-5 rounded-lg">
         {Info.map((info, i) => (
           <div key={i}>

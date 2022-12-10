@@ -16,7 +16,7 @@ const Product = () => {
       <h4 className="text-orange-400 font-medium text-center text-md">Review</h4>
       <h2 className="text-3xl lg:text-4xl mt-1 text-center text-slate-900 font-bold hover:text-orange-400">Penilaian Produk</h2>
       <p className="font-medium text-md text-center text-slate-500 md:text-lg mt-1 pb-4">Review dari beberapa orang yang sudah pernah berbelanja di Mocha Pet Shop.</p>
-      <div className="my-16 mx-6">
+      <div className="my-16 mx-10 pl-6">
         <Swiper
           grabCursor={true}
           spaceBetween={30}

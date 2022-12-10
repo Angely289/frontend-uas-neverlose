@@ -67,7 +67,7 @@ const Product = () => {
               </p>
               <div className="flex py-2">
                 <Button className="flex text-left right-0 pt-4 pr-5">Masukkan Keranjang</Button>
-                <h3 className="text-right text-sm text-slate-900 pl-10 py-2">Rp543.000,00</h3>
+                <h3 className="text-right text-sm text-slate-900 pl-6 py-2">Rp543.000,00</h3>
               </div>
             </div>
           </SwiperSlide>
@@ -85,7 +85,7 @@ const Product = () => {
               </p>
               <div className="flex py-2">
                 <Button className="flex text-left right-0 pt-4 pr-5">Masukkan Keranjang</Button>
-                <h3 className="text-right text-sm text-slate-900 pl-12 py-2">Rp43.000,00</h3>
+                <h3 className="text-right text-sm text-slate-900 pl-8 py-2">Rp43.000,00</h3>
               </div>
             </div>
           </SwiperSlide>
@@ -103,7 +103,7 @@ const Product = () => {
               </p>
               <div className="flex py-2">
                 <Button className="flex text-left right-0 pt-4 pr-5">Masukkan Keranjang</Button>
-                <h3 className="text-right text-sm text-slate-900 pl-12 py-2">Rp67.000,00</h3>
+                <h3 className="text-right text-sm text-slate-900 pl-8 py-2">Rp67.000,00</h3>
               </div>
             </div>
           </SwiperSlide>
@@ -121,7 +121,7 @@ const Product = () => {
               </p>
               <div className="flex py-2">
                 <Button className="flex text-left right-0 pt-4 pr-5">Masukkan Keranjang</Button>
-                <h3 className="text-right text-sm text-slate-900 pl-12 py-2">Rp70.000,00</h3>
+                <h3 className="text-right text-sm text-slate-900 pl-8 py-2">Rp70.000,00</h3>
               </div>
             </div>
           </SwiperSlide>
@@ -180,7 +180,7 @@ const Product = () => {
               </p>
               <div className="flex py-2">
                 <Button className="flex text-left right-0 pt-4 pr-5">Masukkan Keranjang</Button>
-                <h3 className="text-right text-sm text-slate-900 pl-10 py-2">Rp543.000,00</h3>
+                <h3 className="text-right text-sm text-slate-900 pl-6 py-2">Rp543.000,00</h3>
               </div>
             </div>
           </SwiperSlide>
@@ -198,7 +198,7 @@ const Product = () => {
               </p>
               <div className="flex py-2">
                 <Button className="flex text-left right-0 pt-4 pr-5">Masukkan Keranjang</Button>
-                <h3 className="text-right text-sm text-slate-900 pl-12 py-2">Rp43.000,00</h3>
+                <h3 className="text-right text-sm text-slate-900 pl-8 py-2">Rp43.000,00</h3>
               </div>
             </div>
           </SwiperSlide>
@@ -216,7 +216,7 @@ const Product = () => {
               </p>
               <div className="flex py-2">
                 <Button className="flex text-left right-0 pt-4 pr-5">Masukkan Keranjang</Button>
-                <h3 className="text-right text-sm text-slate-900 pl-12 py-2">Rp67.000,00</h3>
+                <h3 className="text-right text-sm text-slate-900 pl-8 py-2">Rp67.000,00</h3>
               </div>
             </div>
           </SwiperSlide>
@@ -234,7 +234,7 @@ const Product = () => {
               </p>
               <div className="flex py-2">
                 <Button className="flex text-left right-0 pt-4 pr-5">Masukkan Keranjang</Button>
-                <h3 className="text-right text-sm text-slate-900 pl-12 py-2">Rp70.000,00</h3>
+                <h3 className="text-right text-sm text-slate-900 pl-8 py-2">Rp70.000,00</h3>
               </div>
             </div>
           </SwiperSlide>
@@ -252,7 +252,7 @@ const Product = () => {
               </p>
               <div className="flex py-2">
                 <Button className="flex text-left right-0 pt-4 pr-5">Masukkan Keranjang</Button>
-                <h3 className="text-right text-sm text-slate-900 pl-8 py-2">Rp5.000.000,00</h3>
+                <h3 className="text-right text-sm text-slate-900 pl-4 py-2">Rp5.000.000,00</h3>
               </div>
             </div>
           </SwiperSlide>
@@ -270,7 +270,7 @@ const Product = () => {
               </p>
               <div className="flex py-2">
                 <Button className="flex text-left right-0 pt-4 pr-5">Masukkan Keranjang</Button>
-                <h3 className="text-right text-sm text-slate-900 pl-8 py-2">Rp2.000.000,00</h3>
+                <h3 className="text-right text-sm text-slate-900 pl-4 py-2">Rp2.000.000,00</h3>
               </div>
             </div>
           </SwiperSlide>
@@ -288,7 +288,7 @@ const Product = () => {
               </p>
               <div className="flex py-2">
                 <Button className="flex text-left right-0 pt-4 pr-5">Masukkan Keranjang</Button>
-                <h3 className="text-right text-sm text-slate-900 pl-8 py-2">Rp2.000.000,00</h3>
+                <h3 className="text-right text-sm text-slate-900 pl-4 py-2">Rp2.000.000,00</h3>
               </div>
             </div>
           </SwiperSlide>
