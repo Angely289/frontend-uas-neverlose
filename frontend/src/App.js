@@ -3,6 +3,7 @@ import Pet from "./components/Pet";
 import Product from "./components/Product";
 import Rating from "./components/Rating";
 import Bantuan from "./components/Bantuan";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Product />
       <Rating />
       <Bantuan />
+      <Footer />
     </div>
   );
 }
