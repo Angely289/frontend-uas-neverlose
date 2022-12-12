@@ -18,7 +18,8 @@ import star from "../assets/star.png";
 import product1 from "../assets/product_1.png";
 const Product = () => {
   return (
-    <section id="product" className="my-6">
+    <section id="product" className="my-6 dark:bg-slate-900">
+     <div className="container">
       <h4 className="text-orange-400 font-medium text-center text-md">Kebutuhan</h4>
       <h2 className="text-3xl lg:text-4xl mt-1 text-center text-slate-900 font-bold hover:text-orange-400">Produk Kebutuhan</h2>
       <p className="font-medium text-md text-center text-slate-500 md:text-lg mt-1 pb-4">Berikut adalah kumpulan produk kebutuhan hewan berdasarkan kategorinya</p>
@@ -26,7 +27,7 @@ const Product = () => {
       <div className="pt-10 px-5">
           <h1 className="font-semibold text-3xl text-left lg:text-4xl hover:text-orange-400">Rekomendasi</h1>
       </div>
-      <div className="my-2 mx-6">
+      <div className="my-2">
         <Swiper
           grabCursor={true}
           spaceBetween={30}
@@ -136,7 +137,7 @@ const Product = () => {
           <h3 className="font-medium text-xl lg:text-2xl">Makanan dan Tempat Tinggal</h3>
         </div>
       </div>
-      <div className="my-6 mx-6">
+      <div className="my-6">
         <div className="items-end text-right">
             <a href="#home" className="flex text-base text-end text-slate-900 underline underline-offset-2">Lihat semua</a>
         </div>
@@ -295,7 +296,7 @@ const Product = () => {
         </Swiper>       
       </div>
  
-
+     </div>
     </section>
   );
 };

@@ -10,17 +10,18 @@ const Header = () => {
     },
     {
       title1: "Tentang Kami",
-      title2: "Buat Hewan Peliharaan",
+      title2: "Buat Hewan Peliharaan ",
       title3: "Menjadi ",
       span: "Partner-Mu",
-      des1: "Mocha Pet Shop adalah pet shop online pertama yang ada di Manado. Menyediakan",
-      des2: " berbagai jenis hewan dan kebutuhannya khusus untuk para pecinta hewan.",
-      des3: "Dijamin 100% anda akan suka karena kami menyediakan hewan-hewan unik dan lucu yang banyak diminati saat ini. Kami juga menyediakan transportasi pengantaran",
-      des4: " yang dijamin bisa sampai dengan aman di tempat tujuan."
+      des1: "Mocha Pet Shop adalah pet shop online pertama yang ada di Manado. Menyediakan berbagai jenis hewan dan kebutuhannya khusus untuk",
+      des2: " para pecinta hewan.",
+      des3: "Dijamin 100% anda akan suka karena kami menyediakan hewan-hewan unik dan lucu yang banyak diminati saat ini. Kami juga menyediakan transportasi ",
+      des4: "pengantaran yang dijamin bisa sampai dengan aman di tempat tujuan."
     },
   ];
   return (
-    <section id="home" className="py-4 px-4 md:px-24">
+    <section id="home" className="py-4 px-4 md:px-24 dark:bg-slate-900">
+     <div className="container">
       <div className="pl-6 py-4">
       <Nav />
       </div>
@@ -62,7 +63,7 @@ const Header = () => {
         ))}
       </div>
       </div>
-      
+     </div> 
     </section>
   );
 };

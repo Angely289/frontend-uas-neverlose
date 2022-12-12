@@ -24,13 +24,13 @@ const NavLinks = () => {
     },
     {
       name: "Bantuan",
-      link: "/",
+      link: "#help",
     },
   ];
   return (
     <>
       {Links.map((link, i) => (
-        <li key={i} className="font-semibold hover:text-orange-400">
+        <li key={i} className="font-semibold text-slate-900 hover:text-orange-400 dark:text-white">
           <a href={link.link}>{link.name}</a>
         </li>
       ))}

@@ -12,7 +12,8 @@ import user4 from "../assets/user_4.png";
 import star from "../assets/star.png";
 const Product = () => {
   return (
-    <section id="review" className="my-20">
+    <section id="review" className="my-20 dark:bg-slate-900">
+     <div className="container">
       <h4 className="text-orange-400 font-medium text-center text-md">Review</h4>
       <h2 className="text-3xl lg:text-4xl mt-1 text-center text-slate-900 font-bold hover:text-orange-400">Penilaian Produk</h2>
       <p className="font-medium text-md text-center text-slate-500 md:text-lg mt-1 pb-4">Review dari beberapa orang yang sudah pernah berbelanja di Mocha Pet Shop.</p>
@@ -162,6 +163,7 @@ const Product = () => {
           </SwiperSlide>
         </Swiper>       
       </div>
+     </div>
     </section>
   );
 };
