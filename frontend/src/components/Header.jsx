@@ -3,6 +3,7 @@ import Nav from "./Navbar/Nav";
 import Pic1 from "../assets/pic_1.png";
 import ButtonFill from "./ButtonFill";
 import Pic2 from "../assets/pic_2.png";
+
 const Header = () => {
   const Info = [
     {
